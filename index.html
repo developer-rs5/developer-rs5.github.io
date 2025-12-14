@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rishabh Sharma (Developer RS) | 16-Year-Old Full Stack & Cloud Developer</title>
 
     <!-- SEO Optimization -->
-    <meta name="description" content="Rishabh Sharma (Developer RS) is a 16-year-old professional full stack & cloud developer from Sikar, Rajasthan. Founder of Zenuxs. Expert in React, Node.js, Docker & cloud infrastructure." />
-    <meta name="keywords" content="16-year-old developer, Rishabh Sharma, Developer RS, Developer RS5, Full Stack Developer India, Cloud Developer, Zenuxs Founder, Teen Developer, Programming Prodigy" />
+    <link rel="canonical" href="https://rs.zenuxs.in/" />
+    <meta name="description"
+        content="Rishabh Sharma (Developer RS) is a 16-year-old professional full stack & cloud developer from Sikar, Rajasthan. Founder of Zenuxs. Expert in React, Node.js, Docker & cloud infrastructure." />
+    <meta name="keywords"
+        content="16-year-old developer, Rishabh Sharma, Developer RS, Developer RS5, Full Stack Developer India, Cloud Developer, Zenuxs Founder, Teen Developer, Programming Prodigy" />
     <meta name="author" content="Rishabh Sharma" />
     <meta name="robots" content="index, follow" />
     <link rel="shortcut icon" href="profile.jpg" type="image/x-icon">
-    
+
     <!-- OG Tags for Social Sharing -->
     <meta property="og:title" content="Rishabh Sharma (Developer RS) | 16-Year-Old Full Stack Developer" />
-    <meta property="og:description" content="16-year-old professional developer building scalable full-stack and cloud solutions. Founder of Zenuxs." />
+    <meta property="og:description"
+        content="16-year-old professional developer building scalable full-stack and cloud solutions. Founder of Zenuxs." />
     <meta property="og:image" content="profile.jpg" />
     <meta property="og:type" content="website" />
-    
+
     <!-- Structured Data for Google -->
     <script type="application/ld+json">
     {
@@ -54,7 +59,9 @@
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
@@ -71,54 +78,54 @@
             --success: #00ff9d;
             --purple: #b57dff;
             --orange: #ff9a3d;
-            
+
             --gradient-1: linear-gradient(135deg, #6ae3ff 0%, #b57dff 100%);
             --gradient-2: linear-gradient(135deg, #12151b 0%, #1a1f2e 100%);
             --gradient-glass: linear-gradient(135deg, rgba(20, 25, 35, 0.8) 0%, rgba(30, 35, 50, 0.6) 100%);
-            
+
             --radius-sm: 8px;
             --radius-md: 16px;
             --radius-lg: 24px;
             --radius-xl: 32px;
-            
+
             --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.1);
             --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
             --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.3);
             --shadow-glow: 0 0 30px var(--accent-glow);
-            
+
             --transition-fast: 0.2s ease;
             --transition-normal: 0.3s ease;
             --transition-slow: 0.5s ease;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         html {
             scroll-behavior: smooth;
         }
-        
+
         body {
             font-family: 'Inter', sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
             overflow-x: hidden;
-            background-image: 
+            background-image:
                 radial-gradient(circle at 10% 20%, rgba(106, 227, 255, 0.05) 0%, transparent 20%),
                 radial-gradient(circle at 90% 80%, rgba(181, 125, 255, 0.05) 0%, transparent 20%);
             min-height: 100vh;
         }
-        
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        
+
         /* Header & Navigation */
         header {
             padding: 24px 0;
@@ -130,13 +137,13 @@
             backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border);
         }
-        
+
         .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
+
         .logo {
             display: flex;
             align-items: center;
@@ -146,11 +153,11 @@
             color: var(--text-primary);
             text-decoration: none;
         }
-        
+
         .logo span {
             color: var(--accent);
         }
-        
+
         .logo-badge {
             background: var(--gradient-1);
             color: var(--bg-primary);
@@ -160,12 +167,12 @@
             font-weight: 700;
             margin-left: 8px;
         }
-        
+
         .nav-links {
             display: flex;
             gap: 32px;
         }
-        
+
         .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
@@ -173,11 +180,11 @@
             transition: var(--transition-fast);
             position: relative;
         }
-        
+
         .nav-links a:hover {
             color: var(--text-primary);
         }
-        
+
         .nav-links a::after {
             content: '';
             position: absolute;
@@ -188,11 +195,11 @@
             background: var(--accent);
             transition: var(--transition-normal);
         }
-        
+
         .nav-links a:hover::after {
             width: 100%;
         }
-        
+
         .mobile-toggle {
             display: none;
             background: none;
@@ -201,14 +208,14 @@
             font-size: 1.5rem;
             cursor: pointer;
         }
-        
+
         /* Hero Section */
         .hero {
             padding: 180px 0 120px;
             position: relative;
             overflow: hidden;
         }
-        
+
         .hero-background {
             position: absolute;
             top: 0;
@@ -218,14 +225,14 @@
             z-index: -1;
             opacity: 0.3;
         }
-        
+
         .hero-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 60px;
             align-items: center;
         }
-        
+
         .hero-content h1 {
             font-family: 'Poppins', sans-serif;
             font-size: 3.5rem;
@@ -233,7 +240,7 @@
             line-height: 1.1;
             margin-bottom: 20px;
         }
-        
+
         .hero-highlight {
             background: var(--gradient-1);
             -webkit-background-clip: text;
@@ -241,14 +248,14 @@
             color: transparent;
             display: inline-block;
         }
-        
+
         .hero-tagline {
             font-size: 1.25rem;
             color: var(--text-secondary);
             margin-bottom: 32px;
             max-width: 600px;
         }
-        
+
         .age-badge {
             display: inline-flex;
             align-items: center;
@@ -259,24 +266,24 @@
             margin-bottom: 32px;
             box-shadow: var(--shadow-md);
         }
-        
+
         .age-badge i {
             color: var(--accent);
             margin-right: 10px;
             font-size: 1.2rem;
         }
-        
+
         .age-badge span {
             font-weight: 700;
             color: var(--accent);
         }
-        
+
         .cta-buttons {
             display: flex;
             gap: 16px;
             margin-top: 40px;
         }
-        
+
         .btn {
             padding: 14px 32px;
             border-radius: var(--radius-md);
@@ -288,40 +295,40 @@
             justify-content: center;
             gap: 10px;
         }
-        
+
         .btn-primary {
             background: var(--gradient-1);
             color: var(--bg-primary);
             box-shadow: var(--shadow-glow);
         }
-        
+
         .btn-primary:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 30px rgba(106, 227, 255, 0.4);
         }
-        
+
         .btn-secondary {
             background: transparent;
             color: var(--text-primary);
             border: 1px solid var(--border);
         }
-        
+
         .btn-secondary:hover {
             background: rgba(255, 255, 255, 0.05);
             border-color: var(--accent);
         }
-        
+
         .hero-visual {
             position: relative;
         }
-        
+
         .avatar-container {
             position: relative;
             width: 320px;
             height: 320px;
             margin: 0 auto;
         }
-        
+
         .avatar {
             width: 100%;
             height: 100%;
@@ -333,7 +340,7 @@
             position: relative;
             z-index: 2;
         }
-        
+
         .avatar-ring {
             position: absolute;
             top: -10px;
@@ -345,12 +352,17 @@
             animation: rotate 10s linear infinite;
             z-index: 1;
         }
-        
+
         @keyframes rotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
-        
+
         .floating-elements {
             position: absolute;
             top: 0;
@@ -359,7 +371,7 @@
             height: 100%;
             pointer-events: none;
         }
-        
+
         .floating-element {
             position: absolute;
             width: 40px;
@@ -369,21 +381,42 @@
             opacity: 0.2;
             filter: blur(10px);
         }
-        
-        .element-1 { top: 10%; left: 10%; animation: float 8s ease-in-out infinite; }
-        .element-2 { top: 20%; right: 15%; animation: float 10s ease-in-out infinite 1s; }
-        .element-3 { bottom: 15%; left: 20%; animation: float 12s ease-in-out infinite 2s; }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0) scale(1); }
-            50% { transform: translateY(-20px) scale(1.1); }
+
+        .element-1 {
+            top: 10%;
+            left: 10%;
+            animation: float 8s ease-in-out infinite;
         }
-        
+
+        .element-2 {
+            top: 20%;
+            right: 15%;
+            animation: float 10s ease-in-out infinite 1s;
+        }
+
+        .element-3 {
+            bottom: 15%;
+            left: 20%;
+            animation: float 12s ease-in-out infinite 2s;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+            }
+
+            50% {
+                transform: translateY(-20px) scale(1.1);
+            }
+        }
+
         /* Sections */
         section {
             padding: 100px 0;
         }
-        
+
         .section-title {
             font-family: 'Poppins', sans-serif;
             font-size: 2.5rem;
@@ -391,7 +424,7 @@
             margin-bottom: 20px;
             text-align: center;
         }
-        
+
         .section-subtitle {
             color: var(--text-secondary);
             text-align: center;
@@ -399,7 +432,7 @@
             margin: 0 auto 60px;
             font-size: 1.1rem;
         }
-        
+
         /* About Section */
         .about-content {
             display: grid;
@@ -407,26 +440,26 @@
             gap: 60px;
             align-items: center;
         }
-        
+
         .about-text h3 {
             font-family: 'Poppins', sans-serif;
             font-size: 1.8rem;
             margin-bottom: 24px;
             color: var(--accent);
         }
-        
+
         .about-text p {
             margin-bottom: 20px;
             color: var(--text-secondary);
         }
-        
+
         .stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             margin-top: 40px;
         }
-        
+
         .stat-card {
             background: var(--gradient-glass);
             border: 1px solid var(--border);
@@ -436,13 +469,13 @@
             backdrop-filter: blur(10px);
             transition: var(--transition-normal);
         }
-        
+
         .stat-card:hover {
             transform: translateY(-5px);
             border-color: var(--accent);
             box-shadow: var(--shadow-glow);
         }
-        
+
         .stat-number {
             font-size: 2.5rem;
             font-weight: 800;
@@ -453,19 +486,19 @@
             line-height: 1;
             margin-bottom: 8px;
         }
-        
+
         .stat-label {
             color: var(--text-secondary);
             font-size: 0.9rem;
         }
-        
+
         /* Skills Section */
         .skills-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 24px;
         }
-        
+
         .skill-card {
             background: var(--gradient-glass);
             border: 1px solid var(--border);
@@ -476,13 +509,13 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .skill-card:hover {
             transform: translateY(-8px);
             border-color: var(--accent);
             box-shadow: var(--shadow-glow);
         }
-        
+
         .skill-card::before {
             content: '';
             position: absolute;
@@ -495,11 +528,11 @@
             transform-origin: left;
             transition: var(--transition-normal);
         }
-        
+
         .skill-card:hover::before {
             transform: scaleX(1);
         }
-        
+
         .skill-icon {
             font-size: 2.5rem;
             margin-bottom: 20px;
@@ -508,38 +541,38 @@
             background-clip: text;
             color: transparent;
         }
-        
+
         .skill-card h3 {
             font-family: 'Poppins', sans-serif;
             font-size: 1.5rem;
             margin-bottom: 16px;
         }
-        
+
         .skill-list {
             list-style: none;
         }
-        
+
         .skill-list li {
             margin-bottom: 10px;
             color: var(--text-secondary);
             display: flex;
             align-items: center;
         }
-        
+
         .skill-list li::before {
             content: '▸';
             color: var(--accent);
             margin-right: 10px;
             font-weight: bold;
         }
-        
+
         /* Projects Section */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 30px;
         }
-        
+
         .project-card {
             background: var(--gradient-glass);
             border: 1px solid var(--border);
@@ -548,31 +581,31 @@
             transition: var(--transition-normal);
             backdrop-filter: blur(10px);
         }
-        
+
         .project-card:hover {
             transform: translateY(-8px);
             border-color: var(--accent);
             box-shadow: var(--shadow-glow);
         }
-        
+
         .project-header {
             padding: 24px;
             border-bottom: 1px solid var(--border);
         }
-        
+
         .project-header h3 {
             font-family: 'Poppins', sans-serif;
             font-size: 1.5rem;
             margin-bottom: 8px;
         }
-        
+
         .project-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
             margin-top: 12px;
         }
-        
+
         .tag {
             background: rgba(106, 227, 255, 0.1);
             color: var(--accent);
@@ -581,41 +614,41 @@
             font-size: 0.8rem;
             font-weight: 500;
         }
-        
+
         .project-content {
             padding: 24px;
         }
-        
+
         .project-content p {
             color: var(--text-secondary);
             margin-bottom: 20px;
         }
-        
+
         /* Contact Section */
         .contact-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 60px;
         }
-        
+
         .contact-info h3 {
             font-family: 'Poppins', sans-serif;
             font-size: 1.8rem;
             margin-bottom: 24px;
             color: var(--accent);
         }
-        
+
         .contact-info p {
             color: var(--text-secondary);
             margin-bottom: 32px;
         }
-        
+
         .social-links {
             display: flex;
             gap: 16px;
             margin-top: 30px;
         }
-        
+
         .social-link {
             display: inline-flex;
             align-items: center;
@@ -630,36 +663,36 @@
             transition: var(--transition-normal);
             border: 1px solid var(--border);
         }
-        
+
         .social-link:hover {
             background: var(--gradient-1);
             color: var(--bg-primary);
             transform: translateY(-3px);
         }
-        
+
         /* Footer */
         footer {
             background: var(--bg-secondary);
             padding: 60px 0 30px;
             border-top: 1px solid var(--border);
         }
-        
+
         .footer-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 40px;
         }
-        
+
         .footer-logo {
             font-size: 1.5rem;
             font-weight: 700;
         }
-        
+
         .footer-logo span {
             color: var(--accent);
         }
-        
+
         .copyright {
             text-align: center;
             color: var(--text-secondary);
@@ -667,33 +700,36 @@
             border-top: 1px solid var(--border);
             font-size: 0.9rem;
         }
-        
+
         .copyright a {
             color: var(--accent);
             text-decoration: none;
         }
-        
+
         /* Responsive Design */
         @media (max-width: 992px) {
-            .hero-grid, .about-content, .contact-container {
+
+            .hero-grid,
+            .about-content,
+            .contact-container {
                 grid-template-columns: 1fr;
                 gap: 40px;
             }
-            
+
             .hero-content h1 {
                 font-size: 2.8rem;
             }
-            
+
             .avatar-container {
                 width: 280px;
                 height: 280px;
             }
-            
+
             .stats {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-        
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -708,64 +744,66 @@
                 border-top: 1px solid var(--border);
                 border-bottom: 1px solid var(--border);
             }
-            
+
             .nav-links.active {
                 display: flex;
             }
-            
+
             .mobile-toggle {
                 display: block;
             }
-            
+
             .hero {
                 padding: 150px 0 80px;
             }
-            
+
             .hero-content h1 {
                 font-size: 2.3rem;
             }
-            
+
             .cta-buttons {
                 flex-direction: column;
                 align-items: flex-start;
             }
-            
+
             .section-title {
                 font-size: 2rem;
             }
-            
+
             .stats {
                 grid-template-columns: 1fr;
             }
         }
-        
+
         @media (max-width: 576px) {
             .container {
                 padding: 0 16px;
             }
-            
+
             .hero-content h1 {
                 font-size: 2rem;
             }
-            
+
             .hero-tagline {
                 font-size: 1.1rem;
             }
-            
+
             .section-title {
                 font-size: 1.8rem;
             }
-            
-            .skill-card, .project-card {
+
+            .skill-card,
+            .project-card {
                 padding: 20px;
             }
-            
+
             .projects-grid {
                 grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
+
 <body>
     <!-- Header & Navigation -->
     <header>
@@ -775,11 +813,11 @@
                 Developer RS<span>5</span>
                 <div class="logo-badge">PRO</div>
             </a>
-            
+
             <button class="mobile-toggle" id="mobileToggle">
                 <i class="fas fa-bars"></i>
             </button>
-            
+
             <nav class="nav-links" id="navLinks">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
@@ -795,15 +833,16 @@
             <div class="hero-content">
                 <h1>Building the Future at <span class="hero-highlight">16</span></h1>
                 <p class="hero-tagline">
-                    I'm <strong>Rishabh Sharma</strong> (Developer RS), a 16-year-old professional full stack & cloud developer from Sikar, Rajasthan, India. 
+                    I'm <strong>Rishabh Sharma</strong> (Developer RS), a 16-year-old professional full stack & cloud
+                    developer from Sikar, Rajasthan, India.
                     I build scalable, production-ready systems and founded <strong>Zenuxs</strong>.
                 </p>
-                
+
                 <div class="age-badge">
                     <i class="fas fa-birthday-cake"></i>
                     <span>16-Year-Old</span> &nbsp;Programming Prodigy
                 </div>
-                
+
                 <div class="cta-buttons">
                     <a href="#projects" class="btn btn-primary">
                         <i class="fas fa-rocket"></i> View My Work
@@ -813,7 +852,7 @@
                     </a>
                 </div>
             </div>
-            
+
             <div class="hero-visual">
                 <div class="avatar-container">
                     <div class="avatar-ring"></div>
@@ -833,29 +872,32 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <p class="section-subtitle">
-                Self-taught developer with hands-on experience in web, backend, cloud, and infrastructure technologies. 
+                Self-taught developer with hands-on experience in web, backend, cloud, and infrastructure technologies.
                 Building professional solutions since my early teens.
             </p>
-            
+
             <div class="about-content">
                 <div class="about-text">
                     <h3>From Passion to Profession</h3>
                     <p>
-                        I started coding at 13 and quickly progressed from basic scripts to building full-scale applications. 
-                        My journey has been driven by curiosity and a passion for solving complex problems through technology.
+                        I started coding at 13 and quickly progressed from basic scripts to building full-scale
+                        applications.
+                        My journey has been driven by curiosity and a passion for solving complex problems through
+                        technology.
                     </p>
                     <p>
-                        As a <strong>founder of Zenuxs</strong>, I've gained real-world experience in project management, 
-                        client communication, and deploying production systems. I specialize in creating efficient, 
+                        As a <strong>founder of Zenuxs</strong>, I've gained real-world experience in project
+                        management,
+                        client communication, and deploying production systems. I specialize in creating efficient,
                         scalable solutions that perform under pressure.
                     </p>
                     <p>
-                        Despite my age, I approach development with professional discipline, focusing on clean code, 
-                        thorough testing, and robust architecture. I believe age is just a number when it comes to 
+                        Despite my age, I approach development with professional discipline, focusing on clean code,
+                        thorough testing, and robust architecture. I believe age is just a number when it comes to
                         delivering quality work.
                     </p>
                 </div>
-                
+
                 <div class="stats">
                     <div class="stat-card">
                         <div class="stat-number">3+</div>
@@ -881,7 +923,7 @@
             <p class="section-subtitle">
                 Mastery across the full development stack, from frontend interfaces to cloud infrastructure.
             </p>
-            
+
             <div class="skills-container">
                 <div class="skill-card">
                     <div class="skill-icon">
@@ -896,7 +938,7 @@
                         <li>UI/UX Principles</li>
                     </ul>
                 </div>
-                
+
                 <div class="skill-card">
                     <div class="skill-icon">
                         <i class="fas fa-server"></i>
@@ -910,7 +952,7 @@
                         <li>Authentication & Security</li>
                     </ul>
                 </div>
-                
+
                 <div class="skill-card">
                     <div class="skill-icon">
                         <i class="fas fa-cloud"></i>
@@ -935,7 +977,7 @@
             <p class="section-subtitle">
                 A selection of my work that showcases technical ability and problem-solving skills.
             </p>
-            
+
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
@@ -949,12 +991,12 @@
                     </div>
                     <div class="project-content">
                         <p>
-                            The complete platform for my startup Zenuxs, featuring user authentication, 
+                            The complete platform for my startup Zenuxs, featuring user authentication,
                             dashboard, admin panel, and integrated payment processing.
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="project-card">
                     <div class="project-header">
                         <h3>Cloud VPS Manager</h3>
@@ -967,12 +1009,12 @@
                     </div>
                     <div class="project-content">
                         <p>
-                            A web-based control panel for managing multiple VPS instances, with automated 
+                            A web-based control panel for managing multiple VPS instances, with automated
                             deployment, monitoring, and backup functionality.
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="project-card">
                     <div class="project-header">
                         <h3>E-Commerce Solution</h3>
@@ -985,7 +1027,7 @@
                     </div>
                     <div class="project-content">
                         <p>
-                            A full-featured online store with product catalog, shopping cart, user accounts, 
+                            A full-featured online store with product catalog, shopping cart, user accounts,
                             and secure payment processing.
                         </p>
                     </div>
@@ -1001,16 +1043,16 @@
             <p class="section-subtitle">
                 Interested in collaborating? Reach out to discuss your project or just to connect.
             </p>
-            
+
             <div class="contact-container">
                 <div class="contact-info">
                     <h3>Let's Build Something Amazing</h3>
                     <p>
-                        Despite my age, I bring professional discipline, technical expertise, and 
-                        a fresh perspective to every project. Whether you need a website, web application, 
+                        Despite my age, I bring professional discipline, technical expertise, and
+                        a fresh perspective to every project. Whether you need a website, web application,
                         or cloud infrastructure, I can help bring your vision to life.
                     </p>
-                    
+
                     <div class="social-links">
                         <a href="https://instagram.com/developer.rs" target="_blank" class="social-link">
                             <i class="fab fa-instagram"></i>
@@ -1018,12 +1060,13 @@
                         <a href="https://github.com/developer-rs5" target="_blank" class="social-link">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/rishabh-sharma-700895352" target="_blank" class="social-link">
+                        <a href="https://www.linkedin.com/in/rishabh-sharma-700895352" target="_blank"
+                            class="social-link">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="contact-form">
                     <div class="skill-card">
                         <h3>Contact Information</h3>
@@ -1051,15 +1094,16 @@
                     <i class="fas fa-code"></i> Developer RS<span>5</span>
                 </div>
                 <div class="footer-links">
-                    <a href="#about">About</a> · 
-                    <a href="#skills">Skills</a> · 
-                    <a href="#projects">Projects</a> · 
+                    <a href="#about">About</a> ·
+                    <a href="#skills">Skills</a> ·
+                    <a href="#projects">Projects</a> ·
                     <a href="#contact">Contact</a>
                 </div>
             </div>
-            
+
             <div class="copyright">
-                <p>© 2025 Rishabh Sharma (Developer RS). All rights reserved. · Built with passion from Sikar, Rajasthan.</p>
+                <p>© 2025 Rishabh Sharma (Developer RS). All rights reserved. · Built with passion from Sikar,
+                    Rajasthan.</p>
                 <p>16-Year-Old Full Stack & Cloud Developer · Founder of Zenuxs</p>
             </div>
         </div>
@@ -1069,14 +1113,14 @@
         // Mobile Navigation Toggle
         const mobileToggle = document.getElementById('mobileToggle');
         const navLinks = document.getElementById('navLinks');
-        
+
         mobileToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
-            mobileToggle.innerHTML = navLinks.classList.contains('active') 
-                ? '<i class="fas fa-times"></i>' 
+            mobileToggle.innerHTML = navLinks.classList.contains('active')
+                ? '<i class="fas fa-times"></i>'
                 : '<i class="fas fa-bars"></i>';
         });
-        
+
         // Close mobile menu when clicking a link
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
@@ -1084,13 +1128,13 @@
                 mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
             });
         });
-        
+
         // Add scroll animation to elements
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
         };
-        
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -1098,12 +1142,12 @@
                 }
             });
         }, observerOptions);
-        
+
         // Observe elements for animation
         document.querySelectorAll('.skill-card, .project-card, .stat-card').forEach(el => {
             observer.observe(el);
         });
-        
+
         // Current year for copyright
         document.addEventListener('DOMContentLoaded', () => {
             const yearSpan = document.querySelector('.current-year');
@@ -1113,4 +1157,5 @@
         });
     </script>
 </body>
+
 </html>
